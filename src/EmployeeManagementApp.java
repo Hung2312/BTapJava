@@ -19,9 +19,7 @@ class Employee {
         this.code = code;
         this.salaryRate = salaryRate;
     }
-
-    // Getters and setters
-
+    
     public int getId() {
         return id;
     }
@@ -70,7 +68,6 @@ class Employee {
         this.salaryRate = salaryRate;
     }
 
-    @Override
     public String toString() {
         return "Employee{" +
                 "id=" + id +
@@ -143,7 +140,7 @@ public class EmployeeManagementApp {
 
         if (isNameDuplicate) {
             System.out.println("Loi: Ten da ton tai trong danh sach.");
-            return; // Kết thúc chức năng thêm nhân viên
+            return;
         }
 
         System.out.print("Nhap tuoi: ");
@@ -165,7 +162,7 @@ public class EmployeeManagementApp {
 
         if (isCodeDuplicate) {
             System.out.println("Loi: Ma da ton tai trong danh sach.");
-            return; // Kết thúc chức năng thêm nhân viên
+            return; 
         }
 
         System.out.print("Nhap muc luong: ");
