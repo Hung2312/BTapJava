@@ -19,7 +19,6 @@ class Employee {
         this.code = code;
         this.salaryRate = salaryRate;
     }
-    
     public int getId() {
         return id;
     }
